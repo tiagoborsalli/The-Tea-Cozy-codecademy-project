@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    color: seashell;   
+    background-color: black;
+    opacity: 0.8;
+  }
+  
+  header {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+  }
+  
+  header nav {
+    display: inline-flex;
+    float: right;
+  }
+  
+  header nav a {
+    text-decoration: underline;
+    padding: 20px 10px;
+    font-size: 22px;
+    color: seashell;
+    
+  }
+  
+  header nav a:active {
+    color: seashell;
+    }
+  
+  header img {
+    height: 50px;
+    margin: 10px 10px;
+    float: left;
+  }
+  
+  main {
+    position: relative;
+    top: 69px;
+  }
+  
+  .background {
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*wfdnkl*_ga*MjEzNzI5OTgxNy4xNjUyMzgzNjM5*_ga_3LRZM6TM9L*MTY1MjgxMTI1OC43LjEuMTY1MjgxNTUyMC4xOQ..");
+    background-size: cover;
+    opacity: 0.8;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1200px;
+    background-color: black;
+    position: relative;
+    top: 300px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+  h1 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .container2 {
+    max-width: 1000px;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cards img {
+    width: 300px;
+    height: 200px;
+    padding: 10px 10px;
+  }
+  
+  .container3 {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    justify-content: center;
+  }
+  
+  .background3 {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*6h78ia*_ga*MjEzNzI5OTgxNy4xNjUyMzgzNjM5*_ga_3LRZM6TM9L*MTY1MjgyMTM2My44LjEuMTY1MjgyMTQ1NS4yOA..");
+    background-size: cover;
+    height: 500px;
+    opacity: 0.9;
+    width: 100%;
+  }
+  
+  .location {
+    position: relative;
+    top: 60px;
+    text-align: center; 
+  }
+  
+  .locations {
+    background-color: black;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 40px 20px;
+    flex-shrink: 0;
+    text-align: center;
+    bottom: 80px;
+  }
+  
+  .locations h4 {
+    font-size: 20px;
+    line-height: 45px;
+  }
+  
+  .contact {
+    height: 200px;
+    position: relative;
+    top: 70px;
+    text-align: center;
+  }
+  
+  .contact h1 {
+    font-size: 33px;
+  }
+  
+  .copyright {
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+  }
